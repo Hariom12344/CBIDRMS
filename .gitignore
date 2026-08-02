@@ -1,0 +1,22 @@
+# Node / Backend
+node_modules/
+.env
+.env.*
+dist/
+uploads/
+
+# Flutter / Frontend
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.DS_Store
+Thumbs.db
