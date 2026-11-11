@@ -1,0 +1,29 @@
+# Node / Backend
+node_modules/
+.env
+.env.*
+dist/
+uploads/
+
+# Flutter / Frontend
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Plugins
+/plugin marketplace add triroop-techconsult/triroop-engineering-document
+/plugin install engineering-system@triroop-engineering-document
+
+# Server
+http://localhost:57345

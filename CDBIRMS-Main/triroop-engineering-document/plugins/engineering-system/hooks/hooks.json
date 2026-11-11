@@ -1,0 +1,16 @@
+{
+  "description": "Engineering System (ES) plugin hooks — injects the ES request workflow as context on every prompt.",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/scripts/user-prompt-submit.js\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

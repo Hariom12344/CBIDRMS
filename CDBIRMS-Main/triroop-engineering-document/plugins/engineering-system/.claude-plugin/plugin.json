@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "engineering-system",
+  "version": "0.3.0",
+  "description": "Engineering System (ES) architecture skills, frontend/backend conventions, SEO, and request-handling workflow enforcement",
+  "author": {
+    "name": "Saurabh Aralkar",
+    "email": "saurabharalkar@gmail.com"
+  },
+  "keywords": [
+    "architecture",
+    "nextjs",
+    "flutter",
+    "seo",
+    "vertical-slice",
+    "frontend",
+    "backend",
+    "workflow",
+    "feature-contract"
+  ],
+  "skills": [
+    "./"
+  ]
+}

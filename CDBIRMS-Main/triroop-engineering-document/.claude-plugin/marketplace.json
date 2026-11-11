@@ -1,0 +1,17 @@
+{
+  "name": "triroop-engineering-document",
+  "owner": {
+    "name": "Saurabh Aralkar",
+    "email": "saurabh@busybrains.ai",
+    "url": "https://triroop.com"
+  },
+  "description": "Triroop Engineering System (TES) documentation and Claude Code plugins.",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "engineering-system",
+      "source": "./plugins/engineering-system",
+      "description": "Engineering System (ES) architecture skills, frontend/backend conventions, SEO, and request-handling workflow enforcement."
+    }
+  ]
+}
